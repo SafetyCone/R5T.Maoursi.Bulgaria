@@ -7,14 +7,14 @@ using R5T.Lombardy;
 
 namespace R5T.Maoursi.Bulgaria
 {
-    public class DrobpoxOrganizationsDirectoryPathProvider : IOrganizationsDirectoryPathProvider
+    public class DropboxOrganizationsDirectoryPathProvider : IOrganizationsDirectoryPathProvider
     {
         private IDropboxDirectoryPathProvider DropboxDirectoryPathProvider { get; }
         private IOrganizationsDirectoryNameConvention OrganizationsDirectoryNameConvention { get; }
         private IStringlyTypedPathOperator StringlyTypedPathOperator { get; }
 
 
-        public DrobpoxOrganizationsDirectoryPathProvider(
+        public DropboxOrganizationsDirectoryPathProvider(
             IDropboxDirectoryPathProvider dropboxDirectoryPathProvider,
             IOrganizationsDirectoryNameConvention organizationsDirectoryNameConvention,
             IStringlyTypedPathOperator stringlyTypedPathOperator)
