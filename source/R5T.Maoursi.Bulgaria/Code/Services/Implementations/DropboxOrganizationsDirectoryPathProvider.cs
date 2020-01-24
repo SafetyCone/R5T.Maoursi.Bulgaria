@@ -31,7 +31,7 @@ namespace R5T.Maoursi.Bulgaria
             var organizationsDirectoryName = this.OrganizationsDirectoryNameConvention.GetOrganizationsDirectoryName();
 
             var organizationsDirectoryPath = this.StringlyTypedPathOperator.GetDirectoryPath(dropboxDirectoryPath, organizationsDirectoryName);
-            return organizationsDirectoryName;
+            return organizationsDirectoryPath;
         }
     }
 }
