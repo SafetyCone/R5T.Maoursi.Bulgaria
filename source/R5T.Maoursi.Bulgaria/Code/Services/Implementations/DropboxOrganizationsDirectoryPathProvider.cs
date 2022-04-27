@@ -1,13 +1,13 @@
-﻿using System;
+using System;
 
 using R5T.Bulgaria;
 using R5T.Kalamaria;
-using R5T.Lombardy;
+using R5T.Lombardy;using R5T.T0064;
 
 
 namespace R5T.Maoursi.Bulgaria
-{
-    public class DropboxOrganizationsDirectoryPathProvider : IOrganizationsDirectoryPathProvider
+{[ServiceImplementationMarker]
+    public class DropboxOrganizationsDirectoryPathProvider : IOrganizationsDirectoryPathProvider,IServiceImplementation
     {
         private IDropboxDirectoryPathProvider DropboxDirectoryPathProvider { get; }
         private IOrganizationsDirectoryNameConvention OrganizationsDirectoryNameConvention { get; }

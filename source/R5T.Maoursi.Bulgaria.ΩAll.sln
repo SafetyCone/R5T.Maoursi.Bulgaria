@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Maoursi.Bulgaria.Constr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Maoursi.Bulgaria.Testing", "R5T.Maoursi.Bulgaria.Testing\R5T.Maoursi.Bulgaria.Testing.csproj", "{EF381C4B-D1C9-49E2-9605-7A5E2C994BF5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{CC483F99-CC96-4578-A72C-D896091FFC49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{406D9C21-09EF-4238-81B6-7CD828C35A41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +62,20 @@ Global
 		{EF381C4B-D1C9-49E2-9605-7A5E2C994BF5}.Release|x64.Build.0 = Release|Any CPU
 		{EF381C4B-D1C9-49E2-9605-7A5E2C994BF5}.Release|x86.ActiveCfg = Release|Any CPU
 		{EF381C4B-D1C9-49E2-9605-7A5E2C994BF5}.Release|x86.Build.0 = Release|Any CPU
+		{406D9C21-09EF-4238-81B6-7CD828C35A41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{406D9C21-09EF-4238-81B6-7CD828C35A41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{406D9C21-09EF-4238-81B6-7CD828C35A41}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{406D9C21-09EF-4238-81B6-7CD828C35A41}.Debug|x64.Build.0 = Debug|Any CPU
+		{406D9C21-09EF-4238-81B6-7CD828C35A41}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{406D9C21-09EF-4238-81B6-7CD828C35A41}.Debug|x86.Build.0 = Debug|Any CPU
+		{406D9C21-09EF-4238-81B6-7CD828C35A41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{406D9C21-09EF-4238-81B6-7CD828C35A41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{406D9C21-09EF-4238-81B6-7CD828C35A41}.Release|x64.ActiveCfg = Release|Any CPU
+		{406D9C21-09EF-4238-81B6-7CD828C35A41}.Release|x64.Build.0 = Release|Any CPU
+		{406D9C21-09EF-4238-81B6-7CD828C35A41}.Release|x86.ActiveCfg = Release|Any CPU
+		{406D9C21-09EF-4238-81B6-7CD828C35A41}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{406D9C21-09EF-4238-81B6-7CD828C35A41} = {CC483F99-CC96-4578-A72C-D896091FFC49}
 	EndGlobalSection
 EndGlobal
